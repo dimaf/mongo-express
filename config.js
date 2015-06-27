@@ -1,6 +1,6 @@
 module.exports = {
   mongodb: {
-    server: 'localhost',
+    server: 'hphack-0.hphack.2757.mongodbdns.com',
     port: 27017,
 
     //autoReconnect: automatically reconnect if connection is lost
@@ -32,8 +32,8 @@ module.exports = {
     //  >>>>  Using an admin account allows you to view and edit all databases, and view stats
 
     //leave username and password empty if no admin account exists
-    adminUsername: 'admin',
-    adminPassword: 'pass',
+    adminUsername: '',
+    adminPassword: '',
     //whitelist: hide all databases except the ones in this list  (empty list for no whitelist)
     whitelist: [],
     //blacklist: hide databases listed in the blacklist (empty list for no blacklist)
@@ -42,8 +42,8 @@ module.exports = {
   site: {
     //baseUrl: the URL that mongo express will be located at
     //Remember to add the forward slash at the end!
-    baseUrl: '/',
-    port: 8082,
+    baseUrl: 'http://hphack-admin.elasticbeanstalk.com',
+    port: 8081,
     cookieSecret: 'cookiesecret',
     sessionSecret: 'sessionsecret',
     cookieKeyName: 'mongo-express'
