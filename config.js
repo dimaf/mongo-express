@@ -1,7 +1,7 @@
 module.exports = {
   mongodb: {
     server: 'hphack-1.hphack.2757.mongodbdns.com',
-    port: 27017,
+    port: 27000,
 
     //autoReconnect: automatically reconnect if connection is lost
     autoReconnect: true,
